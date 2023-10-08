@@ -1,0 +1,18 @@
+{
+  "name": "whiteboard-backend",
+  "version": "1.0.0",
+  "description": "This is the backend for server page of white board meeting ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Shailendra kumar Yadav",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
